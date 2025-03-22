@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junior Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/lucide-icons/dist/umd/lucide.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-content">
+            <div class="logo">JD.</div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Junior Developer with <span class="highlight">Big Dreams</span></h1>
+            <p>Passionate about creating meaningful web experiences and ready to contribute to innovative projects.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn primary">Get in Touch</a>
+                <a href="#projects" class="btn secondary">View Projects</a>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-cards">
+            <div class="card">
+                <i data-lucide="code-2"></i>
+                <h3>Clean Code</h3>
+                <p>Committed to writing clean, maintainable, and efficient code following best practices.</p>
+            </div>
+            <div class="card">
+                <i data-lucide="brain"></i>
+                <h3>Quick Learner</h3>
+                <p>Enthusiastic about learning new technologies and adapting to industry trends.</p>
+            </div>
+            <div class="card">
+                <i data-lucide="rocket"></i>
+                <h3>Problem Solver</h3>
+                <p>Love tackling complex problems and finding innovative solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>E-Commerce Dashboard</h3>
+                    <p>A full-stack dashboard for managing online stores with real-time analytics and inventory management.</p>
+                    <div class="tech-stack">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i data-lucide="external-link"></i> Demo</a>
+                        <a href="#" class="project-link"><i data-lucide="github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Weather App</h3>
+                    <p>Real-time weather application with location-based forecasts and interactive maps.</p>
+                    <div class="tech-stack">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i data-lucide="external-link"></i> Demo</a>
+                        <a href="#" class="project-link"><i data-lucide="github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Task Manager</h3>
+                    <p>A collaborative task management tool with real-time updates and team features.</p>
+                    <div class="tech-stack">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i data-lucide="external-link"></i> Demo</a>
+                        <a href="#" class="project-link"><i data-lucide="github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Git</div>
+            <div class="skill">Responsive Design</div>
+            <div class="skill">REST APIs</div>
+            <div class="skill">Problem Solving</div>
+            <div class="skill">Team Collaboration</div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <div class="social-links">
+            <a href="https://github.com" target="_blank"><i data-lucide="github"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i data-lucide="linkedin"></i></a>
+            <a href="mailto:your.email@example.com"><i data-lucide="mail"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Junior Developer. Built with HTML, CSS & JavaScript</p>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js"></script>
+</body>
+</html>
