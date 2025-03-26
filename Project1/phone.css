@@ -1,0 +1,123 @@
+
+/* phone.css - Media queries for responsive design */
+
+/* Navbar adjustments for mobile */
+.navbar {
+    flex-direction: column; /* Stack logo and menu vertically */
+    align-items: center;
+}
+
+.logo {
+    margin: 10px; /* Reduce logo margin */
+}
+
+.logo img {
+    width: 50px; /* Smaller logo for mobile */
+}
+
+/* Navigation menu adjustments */
+.navbar ul {
+    flex-direction: column; /* Stack menu items vertically */
+    gap: 10px; /* Reduce gap between menu items */
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.navbar ul li a {
+    font-size: 1.5rem; /* Smaller font size for menu items */
+    padding: 5px 10px; /* Add padding for better touch targets */
+}
+
+/* Home section adjustments */
+.home {
+    height: 350px; /* Reduce height for mobile */
+    padding: 3px 20px; /* Reduce horizontal padding */
+}
+
+.home h1 {
+    font-size: 3rem; /* Smaller heading for mobile */
+    text-align: center;
+}
+
+.home p {
+    font-size: 1.5rem; /* Smaller paragraph text */
+}
+
+.home button {
+    width: 200px; /* Smaller button width */
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+/* Services section adjustments */
+.services {
+    height: auto; /* Allow height to adjust based on content */
+    padding: 20px 0;
+}
+
+.box {
+    flex-direction: column; /* Stack service boxes vertically */
+    gap: 30px;
+    padding: 0 20px;
+}
+
+/* Make service boxes full width on mobile */
+.box1, .box2, .box3 {
+    width: auto;
+    height: auto;
+    margin: 0 10px;
+}
+
+/* Adjust service box images */
+.box1 img, .box2 img, .box3 img {
+    width: 100%;
+    height: auto;
+}
+
+/* Clients section adjustments */
+.clients {
+    height: auto;
+    padding: 20px 0;
+}
+
+.clientitems {
+    flex-direction: column; /* Stack client logos vertically */
+    align-items: center;
+    gap: 30px;
+}
+
+.clientitems img {
+    width: 150px; /* Smaller logo size */
+    height: auto;
+}
+
+/* Contact form adjustments */
+.contact {
+    height: auto;
+    padding: 20px 0;
+}
+
+.form {
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Make form inputs full width on mobile */
+.input1, .input2, .message {
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Add spacing between form elements */
+.form label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+/* General text adjustments */
+.services h1, .clients h1, .contact h1 {
+    font-size: 2rem;
+    padding: 10px;
+    margin: 10px;
+}

@@ -104,5 +104,110 @@ ul{
 .home {
     position: relative;
 }
+.services{
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.box1{
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid rgb(244, 219, 219);
+    background-color: #ddb2b2;
+}
+.box2{
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid rgb(244, 219, 219);
+    background-color: #ddb2b2;
+}
+.box3{
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid rgb(244, 219, 219);
+    background-color: #ddb2b2;
+}
+.box{
+    display: flex;
+    gap: 20px;
+}
+.box1:hover{
+    transform: scale(1.1);
+}
+.box2:hover{
+    transform: scale(1.1);
+}
+.box3:hover{
+    transform: scale(1.1);
+}
+.clients{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1c6c6;
+    gap: 20px;
+}
+.clientitems{
+  
+    display: flex;
+    gap: 20px;
+    border-radius: 50%;
+    
+}
+.clients h1{
+    font-size: 2rem;
+}
+.contact{
+    height: 500px;
+    background-color: #cfbcbc;
+   
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+.input1{
+    width: 600px;
+    height: 30px;
+}
+.input2{
+    width: 600px;
+    height: 30px;
+}
+.message{
+height: 200px;
+width: 600px;
+}
+.contact h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
 
 
