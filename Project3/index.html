@@ -6,14 +6,16 @@
     <title>Multi page website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  
+
 
 </head>
 <body>
     <section class="header">
         <nav>
-            <a href="index.html"><img src="assets1/logo.png" alt=""></a>
-            <div class="nav-links" id = "navlink">
-                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+            <a href="index.html"><img src="assets1/logo.png" alt="University Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" id="closeMenu"></i>
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
@@ -22,25 +24,122 @@
                     <li><a href="">Contact</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <i class="fas fa-bars" id="showMenu"></i>
         </nav>
 
-<div class="text-box">
-     <h1 >World's No.1 Ranked University</h1>
-    <p >Make your career stress free by studying at world's renowned and world class university</p>
-    <a href="" class = "btn">Visit us to learn more</a>
-</div>
+        <div class="text-box">
+            <h1>World's No.1 Ranked University</h1>
+            <p>Make your career stress free by studying at world's renowned and world class university</p>
+            <a href="" class="btn">Visit us to learn more</a>
+        </div>
+    </section>
+    <section class="courses">
+        <h1>Our Courses</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, dolore.</p>
+    <div class="row">
+        <div class="course-col">
+            <h1>Intermediate</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium perspiciatis esse vero deleniti ex dolorum voluptatibus repellat dolorem obcaecati animi.</p></div>
+        <div class="course-col">
+            <h1>Degree</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium perspiciatis esse vero deleniti ex dolorum voluptatibus repellat dolorem obcaecati animi.</p></div>
+        <div class="course-col">
+            <h1>Post Graduation</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium perspiciatis esse vero deleniti ex dolorum voluptatibus repellat dolorem obcaecati animi.</p></div>
+    </div>
+    
+    
+    
+    </section>
+    <section class="campus">
+        <h1>Our Global Campuses</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quo!</p>
+        <div class="row1">
+            <div class="campus-col">
+              
+                <img src="assets1/london.png" alt="">
+            <div class="layer">
+                
+            </div>
+            
+        
+            <div class="campus-col"><img src="assets1/newyork.png" alt="">
+            <div class="layer">
+                
+            </div>
+          
+            <div class="campus-col"><img src="assets1/washington.png" alt="">
+            <div class="layer">
+                
+            </div>
+            
+            
+            </div>
+           
+        </div>
+   
     </section>
 
+<section class="facility">
+    <div class="upper">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+</div>
+    <div class="boxes">
 
-    <script>
-        const navlink = document.getElementById('navlink')
-        function showMenu(){
-            navlink.style.right = "-200px"
-        }
-        function hideMenu(){
-            navlink.style.right = "0"
-        }
-    </script>
+    <div class="box">
+        <img src="assets1/basketball.png" alt="">
+        <h1>Playground</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="box">
+        <img src="assets1/cafeteria.png" alt="">
+        <h1>Cafetaria</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="box">
+        <img src="assets1/library.png" alt="">
+        <h1>Library</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+</div>
+</section>
+
+<section class="testimonials">
+    <h1>What Our Students Say</h1>
+    <p>Lorem ipsum dolor sit.</p>
+    <div class="tests">
+    <div class="box1">
+        <img src="assets1/user1.jpg" alt="">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, itaque.</p>
+        <h3>Audrey Chen</h3>
+    </div>
+    <div class="box1">
+        <img src="assets1/user2.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, perferendis?</p>
+    <h3>Leon Noel</h3>
+    
+    </div>
+</div>
+</section>
+<footer>
+   <div class="foot">
+    <h1>About us</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident 
+        <br>
+        quibusdam eveniet itaque laboriosam minus eligendi dolorum temporibus
+        <br>
+         doloremque, earum sequi aliquid incidunt voluptate molestias debitis nisi natus? Magni, optio dolorem.</p>
+         <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+   <p>Made by Amina Saeed</p>
+</div>
+</footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
